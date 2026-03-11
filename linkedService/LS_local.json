@@ -1,0 +1,17 @@
+{
+	"name": "LS_local",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "D:\\runtime_test",
+			"userId": "Vishnu",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5ZDNmMDhmMC0zZDhmLTRlMzgtOGQxMS0yOTAzNjE5MzI0NGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostedtest",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
